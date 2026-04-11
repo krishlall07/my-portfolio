@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaGithub, FaExternalLinkAlt, FaTimes } from 'react-icons/fa';
 import projectImg from '../assets/11.png';
 import portfolioImg from '../assets/portfolio-pic.png'; // <--- Import for your second project image
+import skycastImg from '../assets/skycast-pic.png';
 
 const Projects = () => {
   // State to track which project is currently selected for the modal
@@ -11,14 +12,14 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: 'Smart Agriculture Decision Support System',
+      title: 'Smart Crop Advisory System',
       date: 'October 2025',
       // I've simplified the tech list a bit for the mini-pills on the card
       tech: ['React.js', 'Next.js', 'Scikit-learn', 'CSS', 'Javascript', 'Vercel'],
-      shortDesc: 'A web-based platform that helps farmers overcome issues like wrong crop selection...',
-      fullDesc: 'The Smart Agriculture Decision Support System is a web-based platform that helps farmers overcome issues like wrong crop selection, poor soil awareness, and unpredictable weather. It analyzes soil and environmental data to recommend suitable crops and provide insights through a simple dashboard, enabling better decisions, improved productivity, and efficient resource use.',
+      shortDesc: 'Smart Crop Advisory System using real-time data to guide crop choice, irrigation, fertilization, and pest control—boosting yield and reducing losses.',
+      fullDesc: 'A Smart Crop Advisory System that uses real-time weather, soil, and crop data to give farmers personalized recommendations on crop selection, irrigation, fertilizer, and pest management helping them increase yield and reduce losses. ',
       image: projectImg, 
-      githubUrl: '#', // Add your GitHub repo URL here when you have it
+      githubUrl: 'https://github.com/krishlall07/agriculture-web-app-4y', // Add your GitHub repo URL here when you have it
       liveUrl: 'https://v0-agriculture-web-app-five.vercel.app/'
     },
     // <--- YOUR NEW PORTFOLIO PROJECT STARTS HERE --->
@@ -30,8 +31,20 @@ const Projects = () => {
       shortDesc: 'My Portfolio Website',
       fullDesc: 'A fully responsive, interactive personal portfolio website designed to showcase my projects, skills, and educational background. Built entirely from scratch utilizing functional React components, CSS for a custom dark/neon theme, and dynamic state management for interactive elements like the project gallery modal.',
       image: portfolioImg, // Uses your newly imported image
-      githubUrl: '#', // Put your GitHub link here when you push the code
-      liveUrl: '#' // Put your live Vercel link here later
+      githubUrl: 'https://github.com/krishlall07/my-portfolio', // Put your GitHub link here when you push the code
+      liveUrl: 'krishlallportfolio.vercel.app' // Put your live Vercel link here later
+    },
+    // ... (Your previous projects are above this)
+    {
+      id: 3,
+      title: 'Skycast - Real-Time Weather Dashboard',
+      date: 'Recent',
+      tech: ['React', 'JavaScript', 'CSS'],
+      shortDesc: 'A dynamic, real-time weather application featuring live data integration.',
+      fullDesc: 'A high-performance, fully responsive weather dashboard built with React and Vite. Features real-time atmospheric data, intelligent autocomplete search, an interactive global map, and a premium dark/light adaptive UI.',
+      image: skycastImg, // Uses your new imported image
+      githubUrl: 'https://github.com/krishlall07/Skycast', // Add your Skycast GitHub repo URL here
+      liveUrl: 'https://skycast-ind.vercel.app/' // Add your live Vercel link for Skycast here
     }
   ];
 

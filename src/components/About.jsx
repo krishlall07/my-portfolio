@@ -34,7 +34,7 @@ const About = () => {
       <div className="content-card">
         <h2 className="section-title-large">About Me</h2>
         <p className="about-text">
-          I am a 4th-semester Computer Science undergraduate at Jaypee University of Engineering and Technology, interested in Data Science, Machine Learning, and web development. Skilled in Python, SQL, NumPy, and DSA, I build efficient, data-driven solutions. I enjoy solving real-world problems and creating impactful applications with a blend of technical and creative skills.
+          I am a 2nd Year Computer Science undergraduate at Jaypee University of Engineering and Technology, interested in Data Science, Machine Learning, and web development. Skilled in Python, SQL, NumPy, and DSA, I build efficient, data-driven solutions. I enjoy solving real-world problems and creating impactful applications with a blend of technical and creative skills.
         </p>
       </div>
 
