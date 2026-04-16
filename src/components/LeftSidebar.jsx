@@ -27,7 +27,7 @@ const LeftSidebar = () => {
 
         {/* Resume Button */}
         {/* Place your actual resume PDF in the public folder and link it in the href */}
-        <a href="/Krish_Lall_Resume.pdf" download className="resume-btn">
+        <a href="/resume.pdf" download className="resume-btn">
           Get Resume <FaDownload className="btn-icon"/>
         </a>
       </div>
